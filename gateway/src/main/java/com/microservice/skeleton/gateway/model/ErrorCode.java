@@ -1,10 +1,5 @@
 package com.microservice.skeleton.gateway.model;
 
-/**
- * Created by Mr.Yangxiufeng on 2017/12/26.
- * Time:13:50
- * ProjectName:Mirco-Service-Skeleton
- */
 public class ErrorCode {
 
     public static final int OK=200;

@@ -7,21 +7,18 @@ spring:
       base-url: http://10.10.8.2:9050
 eureka:
   instance:
-    prefer-ip-address: true #
+    prefer-ip-address: true
     instance-id: ${spring.cloud.client.ipAddress}:${server.port}
   client:
       service-url:
         defaultZone: http://localhost:9010/eureka/
-###actuator��ص� start####
 endpoints:
   health:
     sensitive: false
     enabled: true
-##Ĭ������ºܶ�˵��ǲ�������ʵģ��᷵��401:Unauthorized
 management:
   security:
     enabled: false
-###actuator��ص� end####
 security:
   oauth2:
     resource:

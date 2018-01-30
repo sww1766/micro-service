@@ -5,11 +5,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-/**
- * Created by Mr.Yangxiufeng on 2017/12/27.
- * Time:17:02
- * ProjectName:Mirco-Service-Skeleton
- */
 @Controller
 public class HelloController {
     @RequestMapping("/")
@@ -23,6 +18,7 @@ public class HelloController {
         return "order";
     }
     @RequestMapping("/login")
+
     @ResponseBody
     public String login() {
         return "login";

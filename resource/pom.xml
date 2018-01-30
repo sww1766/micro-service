@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.microservice.skeleton</groupId>
-		<artifactId>Micro-Service-Skeleton-Parent</artifactId>
+		<artifactId>micro-service-Parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>Micro-Service-Skeleton-Resource</artifactId>
+	<artifactId>resource</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 

@@ -14,11 +14,6 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- * Created by Mr.Yangxiufeng on 2017/12/26.
- * Time:10:12
- * ProjectName:Mirco-Service-Skeleton
- */
 @Component
 public class ServiceFallbackProvider implements FallbackProvider {
     @Override

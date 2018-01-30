@@ -3,11 +3,6 @@ package com.microservice.skeleton.auth.entity;
 import javax.persistence.*;
 import java.util.Date;
 
-/**
- * Created by Mr.Yangxiufeng on 2017/12/27.
- * Time:10:34
- * ProjectName:Mirco-Service-Skeleton
- */
 @Entity
 @Table(name = "rc_role")
 public class RcRoleEntity {

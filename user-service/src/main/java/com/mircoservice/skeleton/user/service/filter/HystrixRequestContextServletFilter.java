@@ -7,11 +7,6 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
-/**
- * Created by Mr.Yangxiufeng on 2017/12/25.
- * Time:14:20
- * ProjectName:Mirco-Service-Skeleton
- */
 @Component
 @WebFilter(filterName = "HystrixRequestContextServletFilter",urlPatterns = "/*",asyncSupported = true)
 public class HystrixRequestContextServletFilter implements Filter {

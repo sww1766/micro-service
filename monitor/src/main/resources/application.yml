@@ -5,24 +5,24 @@ spring:
     name: micro-service-monitor
 eureka:
   instance:
-    prefer-ip-address: true #Ê¹ÓÃIP×¢²á
+    prefer-ip-address: true #ä½¿ç”¨IPæ³¨å†Œ
     instance-id: ${spring.cloud.client.ipAddress}:${server.port}
-    lease-renewal-interval-in-seconds: 5 ##ÎªÁËÄÜ¹»¿ìËÙÉ¾³ı
-    lease-expiration-duration-in-seconds: 10 ##ÎªÁËÄÜ¹»¿ìËÙÉ¾³ı
+    lease-renewal-interval-in-seconds: 5 #ä¸ºäº†èƒ½å¤Ÿå¿«é€Ÿåˆ é™¤
+    lease-expiration-duration-in-seconds: 10 #ä¸ºäº†èƒ½å¤Ÿå¿«é€Ÿåˆ é™¤
   client:
       service-url:
         defaultZone: http://register1:9010/eureka/,http://register2:9011/eureka/
 
-###actuator¼à¿Øµã start####
+###actuatorç›‘æ§ç‚¹ start####
 endpoints:
   health:
     sensitive: false
     enabled: true
-##Ä¬ÈÏÇé¿öÏÂºÜ¶à¶ËµãÊÇ²»ÔÊĞí·ÃÎÊµÄ£¬»á·µ»Ø401:Unauthorized
+##é»˜è®¤æƒ…å†µä¸‹å¾ˆå¤šç«¯ç‚¹æ˜¯ä¸å…è®¸è®¿é—®çš„ï¼Œä¼šè¿”å›401:Unauthorized
 management:
   security:
     enabled: false
-###actuator¼à¿Øµã end####
+###actuatorç›‘æ§ç‚¹ end####
 turbine:
   app-config-list: micro-a-service
   cluster-name-expression: "'default'"

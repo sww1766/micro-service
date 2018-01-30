@@ -15,16 +15,10 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-/**
- * Created by Mr.Yangxiufeng on 2017/12/27.
- * Time:16:37
- * ProjectName:Mirco-Service-Skeleton
- */
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
     @Autowired

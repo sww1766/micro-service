@@ -8,11 +8,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * Created by Mr.Yangxiufeng on 2017/12/29.
- * Time:12:31
- * ProjectName:Mirco-Service-Skeleton
- */
 @Service
 public class RoleServiceImpl implements RoleService {
     @Autowired

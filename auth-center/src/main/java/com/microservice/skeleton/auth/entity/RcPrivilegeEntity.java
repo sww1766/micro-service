@@ -5,11 +5,6 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Created by Mr.Yangxiufeng on 2017/12/27.
- * Time:10:34
- * ProjectName:Mirco-Service-Skeleton
- */
 @Entity
 @Table(name = "rc_privilege")
 public class RcPrivilegeEntity implements Serializable{

@@ -7,11 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-/**
- * Created by Mr.Yangxiufeng on 2017/12/9.
- * Time:15:58
- * ProjectName:Mirco-Service-Skeleton
- */
 @RestController
 public class SimpleController {
     @Autowired

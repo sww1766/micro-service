@@ -5,10 +5,10 @@
 
 	<parent>
 		<groupId>com.microservice.skeleton</groupId>
-		<artifactId>Micro-Service-Skeleton-Parent</artifactId>
+		<artifactId>micro-service-Parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>Micro-Service-Skeleton-upload</artifactId>
+	<artifactId>upload-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 

@@ -4,11 +4,6 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 
 import java.io.Serializable;
 
-/**
- * Created by Mr.Yangxiufeng on 2017/12/26.
- * Time:13:41
- * ProjectName:Mirco-Service-Skeleton
- */
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Msg<T> implements Serializable{
     private static final long serialVersionUID = -1177183613782210351L;

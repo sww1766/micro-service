@@ -10,4 +10,4 @@ eureka:
     register-with-eureka: true #这里要覆盖application的设置，不然会读取application文件导致unavailable-replicas
     fetch-registry: true #这里要覆盖application的设置，不然会读取application文件导致unavailable-replicas
     service-url:
-      defaultZone: http://register1:9010/eureka/
+      defaultZone: http://localhost:9010/eureka/
